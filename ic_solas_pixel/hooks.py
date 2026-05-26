@@ -156,6 +156,15 @@ fixtures = [
 # 	}
 # }
 
+doc_events = {
+	"Customer": {
+		"on_update": "ic_solas_pixel.ic_solas_pixel.overrides.internal_party.sync_ic_mapping",
+	},
+	"Supplier": {
+		"on_update": "ic_solas_pixel.ic_solas_pixel.overrides.internal_party.sync_ic_mapping",
+	},
+}
+
 # Scheduled Tasks
 # ---------------
 

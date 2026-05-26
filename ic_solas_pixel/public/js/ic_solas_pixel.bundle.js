@@ -4,3 +4,5 @@
 import "./account.js";
 import "./chart_of_accounts.js";
 import "./company.js";
+import "./customer.js";
+import "./supplier.js";
