@@ -1,0 +1,458 @@
+{
+  "country_code": "ae",
+  "name": "IC Solas Pixel 6-Digit",
+  "tree": {
+    "Assets": {
+      "root_type": "Asset",
+      "account_number": "100000",
+      "is_group": 1,
+      "Current Assets": {
+        "account_number": "110000",
+        "is_group": 1,
+        "Cash and Bank Balances": {
+          "account_number": "111000",
+          "is_group": 1,
+          "Cash In Hand": {
+            "account_number": "111005",
+            "account_type": "Cash"
+          },
+          "Bank Account": {
+            "account_number": "111100",
+            "account_type": "Bank",
+            "is_group": 1,
+            "Main Bank Account": {
+              "account_number": "111105",
+              "account_type": "Bank"
+            }
+          },
+          "Petty Cash": {
+            "account_number": "111200",
+            "account_type": "Cash"
+          }
+        },
+        "Accounts Receivable": {
+          "account_number": "112000",
+          "is_group": 1,
+          "account_type": "Receivable",
+          "Debtors": {
+            "account_number": "112005",
+            "account_type": "Receivable"
+          }
+        },
+        "Inventory": {
+          "account_number": "113000",
+          "is_group": 1,
+          "Stock In Hand": {
+            "account_number": "113005",
+            "account_type": "Stock"
+          },
+          "Stock In Transit": {
+            "account_number": "113010",
+            "account_type": "Stock"
+          },
+          "Work In Progress": {
+            "account_number": "113015"
+          }
+        },
+        "Advances and Deposits": {
+          "account_number": "114000",
+          "is_group": 1,
+          "Advance to Suppliers": {
+            "account_number": "114005"
+          },
+          "Employee Advances": {
+            "account_number": "114010"
+          },
+          "Security Deposits": {
+            "account_number": "114015"
+          }
+        },
+        "Prepaid Expenses": {
+          "account_number": "115000",
+          "is_group": 1,
+          "Prepaid Insurance": {
+            "account_number": "115005"
+          },
+          "Prepaid Rent": {
+            "account_number": "115010"
+          }
+        }
+      },
+      "Non-Current Assets": {
+        "account_number": "120000",
+        "is_group": 1,
+        "Fixed Assets": {
+          "account_number": "121000",
+          "is_group": 1,
+          "Vehicles": {
+            "account_number": "121005",
+            "account_type": "Fixed Asset"
+          },
+          "Furniture and Fixtures": {
+            "account_number": "121010",
+            "account_type": "Fixed Asset"
+          },
+          "Office Equipment": {
+            "account_number": "121015",
+            "account_type": "Fixed Asset"
+          },
+          "IT Equipment": {
+            "account_number": "121020",
+            "account_type": "Fixed Asset"
+          },
+          "Leasehold Improvements": {
+            "account_number": "121025",
+            "account_type": "Fixed Asset"
+          }
+        },
+        "Accumulated Depreciation": {
+          "account_number": "122000",
+          "is_group": 1,
+          "account_type": "Accumulated Depreciation",
+          "Acc Depr - Vehicles": {
+            "account_number": "122005",
+            "account_type": "Accumulated Depreciation"
+          },
+          "Acc Depr - Furniture": {
+            "account_number": "122010",
+            "account_type": "Accumulated Depreciation"
+          },
+          "Acc Depr - Equipment": {
+            "account_number": "122015",
+            "account_type": "Accumulated Depreciation"
+          },
+          "Acc Depr - IT Assets": {
+            "account_number": "122020",
+            "account_type": "Accumulated Depreciation"
+          }
+        },
+        "Capital WIP": {
+          "account_number": "123000",
+          "account_type": "Capital Work in Progress"
+        },
+        "Intangible Assets": {
+          "account_number": "124000",
+          "is_group": 1,
+          "Goodwill": {
+            "account_number": "124005"
+          },
+          "Software": {
+            "account_number": "124010"
+          }
+        },
+        "Investment in Subsidiaries": {
+          "account_number": "125000",
+          "is_group": 1,
+          "Investment in Subsidiaries - General": {
+            "account_number": "125005"
+          }
+        }
+      },
+      "Temporary Accounts": {
+        "account_number": "190000",
+        "is_group": 1,
+        "Temporary Opening": {
+          "account_number": "190005",
+          "account_type": "Temporary"
+        }
+      }
+    },
+    "Liabilities": {
+      "root_type": "Liability",
+      "account_number": "200000",
+      "is_group": 1,
+      "Current Liabilities": {
+        "account_number": "210000",
+        "is_group": 1,
+        "Accounts Payable": {
+          "account_number": "211000",
+          "is_group": 1,
+          "account_type": "Payable",
+          "Creditors": {
+            "account_number": "211005",
+            "account_type": "Payable"
+          }
+        },
+        "Tax Liabilities": {
+          "account_number": "212000",
+          "is_group": 1,
+          "VAT Output": {
+            "account_number": "212005",
+            "account_type": "Tax",
+            "tax_rate": 5.0
+          },
+          "VAT Input": {
+            "account_number": "212010",
+            "account_type": "Tax"
+          },
+          "VAT Payable": {
+            "account_number": "212015",
+            "account_type": "Tax"
+          },
+          "WHT Payable": {
+            "account_number": "212020"
+          }
+        },
+        "Provisions": {
+          "account_number": "213000",
+          "is_group": 1,
+          "Provision for Leave Salary": {
+            "account_number": "213005"
+          },
+          "Provision for End of Service": {
+            "account_number": "213010"
+          },
+          "Provision for Doubtful Debts": {
+            "account_number": "213015"
+          }
+        },
+        "Accrued Expenses": {
+          "account_number": "214000",
+          "is_group": 1,
+          "Accrued Salaries": {
+            "account_number": "214005"
+          },
+          "Accrued Utilities": {
+            "account_number": "214010"
+          },
+          "Other Accruals": {
+            "account_number": "214015"
+          }
+        },
+        "Advances from Customers": {
+          "account_number": "215000"
+        }
+      },
+      "Non-Current Liabilities": {
+        "account_number": "220000",
+        "is_group": 1,
+        "Long Term Loans": {
+          "account_number": "221000",
+          "is_group": 1,
+          "Bank Loans": {
+            "account_number": "221005"
+          }
+        }
+      }
+    },
+    "Equity": {
+      "root_type": "Equity",
+      "account_number": "300000",
+      "is_group": 1,
+      "Share Capital": {
+        "account_number": "310000",
+        "is_group": 1,
+        "Paid-Up Capital": {
+          "account_number": "311005"
+        },
+        "Share Premium": {
+          "account_number": "311010"
+        }
+      },
+      "Retained Earnings": {
+        "account_number": "320000",
+        "is_group": 1,
+        "Retained Profits": {
+          "account_number": "321005"
+        },
+        "Current Year Profit or Loss": {
+          "account_number": "321010"
+        }
+      },
+      "Reserves": {
+        "account_number": "330000",
+        "is_group": 1,
+        "Legal Reserve": {
+          "account_number": "331005"
+        },
+        "General Reserve": {
+          "account_number": "331010"
+        },
+        "Currency Translation Reserve": {
+          "account_number": "331015"
+        }
+      }
+    },
+    "Revenue": {
+      "root_type": "Income",
+      "account_number": "400000",
+      "is_group": 1,
+      "Trade Revenue": {
+        "account_number": "410000",
+        "is_group": 1,
+        "Product Sales": {
+          "account_number": "411000",
+          "is_group": 1,
+          "Product Sales - General": {
+            "account_number": "411005"
+          },
+          "Product Sales - Spares": {
+            "account_number": "411010"
+          }
+        },
+        "Service Income": {
+          "account_number": "412000",
+          "is_group": 1,
+          "Service Income - General": {
+            "account_number": "412005"
+          },
+          "Service Income - AMC": {
+            "account_number": "412010"
+          },
+          "Service Income - Projects": {
+            "account_number": "412015"
+          }
+        },
+        "Rental Income": {
+          "account_number": "413000",
+          "is_group": 1,
+          "Equipment Rental": {
+            "account_number": "413005"
+          },
+          "Asset Lease Income": {
+            "account_number": "413010"
+          }
+        }
+      },
+      "Other Income": {
+        "account_number": "420000",
+        "is_group": 1,
+        "Interest Income": {
+          "account_number": "420005"
+        },
+        "FX Gain": {
+          "account_number": "420010"
+        },
+        "Miscellaneous Income": {
+          "account_number": "420015"
+        }
+      }
+    },
+    "Direct Costs": {
+      "root_type": "Expense",
+      "account_number": "500000",
+      "is_group": 1,
+      "Cost of Sales": {
+        "account_number": "510000",
+        "is_group": 1,
+        "account_type": "Cost of Goods Sold",
+        "Material Cost": {
+          "account_number": "511005"
+        },
+        "Direct Labour": {
+          "account_number": "511010"
+        },
+        "Subcontractor Cost": {
+          "account_number": "511015"
+        },
+        "Shipping and Freight": {
+          "account_number": "511020"
+        }
+      },
+      "Operating Expenses": {
+        "account_number": "520000",
+        "is_group": 1,
+        "Salaries and Wages": {
+          "account_number": "521000",
+          "is_group": 1,
+          "Basic Salary": {
+            "account_number": "521005"
+          },
+          "Housing Allowance": {
+            "account_number": "521010"
+          },
+          "Transport Allowance": {
+            "account_number": "521015"
+          },
+          "Other Allowances": {
+            "account_number": "521020"
+          },
+          "End of Service Benefits": {
+            "account_number": "521025"
+          }
+        },
+        "Rent Expense": {
+          "account_number": "522000",
+          "is_group": 1,
+          "Office Rent": {
+            "account_number": "522005"
+          },
+          "Warehouse Rent": {
+            "account_number": "522010"
+          }
+        },
+        "Utilities": {
+          "account_number": "523000",
+          "is_group": 1,
+          "Electricity": {
+            "account_number": "523005"
+          },
+          "Water": {
+            "account_number": "523010"
+          },
+          "Telephone and Internet": {
+            "account_number": "523015"
+          }
+        },
+        "Travel and Entertainment": {
+          "account_number": "524000",
+          "is_group": 1,
+          "Travel Expense": {
+            "account_number": "524005"
+          },
+          "Entertainment Expense": {
+            "account_number": "524010"
+          }
+        },
+        "Professional Fees": {
+          "account_number": "525000",
+          "is_group": 1,
+          "Legal Fees": {
+            "account_number": "525005"
+          },
+          "Audit Fees": {
+            "account_number": "525010"
+          },
+          "Consultancy Fees": {
+            "account_number": "525015"
+          }
+        },
+        "Insurance Expense": {
+          "account_number": "526000"
+        },
+        "Marketing Expense": {
+          "account_number": "527000"
+        },
+        "Office Supplies": {
+          "account_number": "528000"
+        },
+        "Repairs and Maintenance": {
+          "account_number": "529000"
+        },
+        "Miscellaneous Expense": {
+          "account_number": "529500"
+        },
+        "FX Loss": {
+          "account_number": "529600"
+        }
+      },
+      "Depreciation": {
+        "account_number": "530000",
+        "is_group": 1,
+        "account_type": "Depreciation",
+        "Depreciation - Vehicles": {
+          "account_number": "530005"
+        },
+        "Depreciation - Furniture": {
+          "account_number": "530010"
+        },
+        "Depreciation - Equipment": {
+          "account_number": "530015"
+        },
+        "Depreciation - IT Assets": {
+          "account_number": "530020"
+        }
+      }
+    }
+  }
+}

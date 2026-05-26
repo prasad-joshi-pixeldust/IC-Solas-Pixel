@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:scheme_name",
+ "creation": "2026-05-26 10:30:00.000000",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "editable_grid": 0,
+ "engine": "InnoDB",
+ "field_order": [
+  "scheme_name",
+  "total_digits",
+  "is_default",
+  "column_break_1",
+  "description",
+  "section_break_levels",
+  "level_config",
+  "section_break_prefixes",
+  "root_type_prefixes"
+ ],
+ "fields": [
+  {
+   "fieldname": "scheme_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Scheme Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "total_digits",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Digits",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_default",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Default"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_levels",
+   "fieldtype": "Section Break",
+   "label": "Levels"
+  },
+  {
+   "fieldname": "level_config",
+   "fieldtype": "Table",
+   "label": "Levels",
+   "options": "COA Numbering Level",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_prefixes",
+   "fieldtype": "Section Break",
+   "label": "Root Type Prefixes"
+  },
+  {
+   "fieldname": "root_type_prefixes",
+   "fieldtype": "Table",
+   "label": "Root Type Prefixes",
+   "options": "COA Root Type Prefix",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-05-26 10:30:00.000000",
+ "modified_by": "Administrator",
+ "module": "IC Solas Pixel",
+ "name": "COA Numbering Scheme",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User"
+  }
+ ],
+ "sort_field": "scheme_name",
+ "sort_order": "ASC",
+ "states": [],
+ "track_changes": 1
+}

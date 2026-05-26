@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "creation": "2026-05-26 12:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "currency",
+  "transaction_type",
+  "margin_percent",
+  "ic_receivable",
+  "ic_payable",
+  "ic_revenue",
+  "ic_cogs",
+  "inventory_in_transit",
+  "ic_transfer_clearing"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "columns": 1,
+   "fetch_from": "company.default_currency",
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "columns": 1,
+   "fieldname": "transaction_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Transaction Type",
+   "options": "\nSales\nPurchase\nBoth"
+  },
+  {
+   "columns": 1,
+   "fieldname": "margin_percent",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Margin %"
+  },
+  {
+   "columns": 1,
+   "fieldname": "ic_receivable",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "IC Receivable",
+   "options": "Account"
+  },
+  {
+   "columns": 1,
+   "fieldname": "ic_payable",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "IC Payable",
+   "options": "Account"
+  },
+  {
+   "columns": 1,
+   "fieldname": "ic_revenue",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "IC Revenue",
+   "options": "Account"
+  },
+  {
+   "columns": 1,
+   "fieldname": "ic_cogs",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "IC COGS",
+   "options": "Account"
+  },
+  {
+   "columns": 1,
+   "fieldname": "inventory_in_transit",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Inventory In Transit",
+   "options": "Account"
+  },
+  {
+   "columns": 1,
+   "fieldname": "ic_transfer_clearing",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "IC Transfer Clearing",
+   "options": "Account"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-05-26 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "IC Solas Pixel",
+ "name": "Intercompany Account Mapping",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "ASC",
+ "states": [],
+ "track_changes": 1
+}

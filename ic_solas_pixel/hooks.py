@@ -26,7 +26,7 @@ app_license = "mit"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ic_solas_pixel/css/ic_solas_pixel.css"
-# app_include_js = "/assets/ic_solas_pixel/js/ic_solas_pixel.js"
+app_include_js = "ic_solas_pixel.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/ic_solas_pixel/css/ic_solas_pixel.css"
@@ -83,7 +83,18 @@ app_license = "mit"
 # ------------
 
 # before_install = "ic_solas_pixel.install.before_install"
-# after_install = "ic_solas_pixel.install.after_install"
+after_install = "ic_solas_pixel.setup.coa_setup.install_coa_symlink"
+after_migrate = "ic_solas_pixel.setup.coa_setup.install_coa_symlink"
+
+# Fixtures
+# --------
+
+fixtures = [
+	{
+		"dt": "Custom Field",
+		"filters": [["module", "in", ["IC Solas Pixel"]]],
+	},
+]
 
 # Uninstallation
 # ------------
@@ -174,9 +185,9 @@ app_license = "mit"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "ic_solas_pixel.event.get_events"
-# }
+override_whitelisted_methods = {
+	"erpnext.accounts.doctype.account.chart_of_accounts.chart_of_accounts.get_charts_for_country": "ic_solas_pixel.setup.coa_setup.override_get_charts_for_country",
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
